@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <!-- latihan tabel dan form -->
+  <!-- membuat form harus menggunakan tag <form> -->
+  <!-- tag form yaitu input,textarea,button,select,label -->
+  <!-- tag input yaitu text,password,radio,checkbox,submit,reset,button -->
+  <body>
+    <table align="center" border="1" cellspacing="0" cellpadding="5">
+      <form action="">
+        <!-- text -->
+        <tr>
+          <td align="center">username :</td>
+          <td>
+            <label for="username">
+              <input type="text" id="username" />
+            </label>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td align="center">password :</td>
+          <td>
+            <label for="password">
+              <input type="password" id="password" />
+            </label>
+          </td>
+        </tr>
+        <br />
+        <!-- radio -->
+        <tr>
+          <td colspan="2" align="center">
+            <input type="radio" name="jeniskelamin" id="pria" />
+            <label for="pria">pria</label>
+            <input type="radio" name="jeniskelamin" id="wanita" />
+            <label for="wanita">wanita</label>
+          </td>
+        </tr>
+        <br />
+        <!-- checkbox -->
+        <tr>
+          <td colspan="2" align="center">
+            <input type="checkbox" id="memasak" />
+            <label for="memasak">memasak</label>
+            <input type="checkbox" id="sepak bola" />
+            <label for="sepak bola">sepak bola</label>
+            <input type="checkbox" id="main game" />
+            <label for="main game">main game</label>
+          </td>
+        </tr>
+        <br />
+        <!-- text area -->
+        <tr>
+          <td align="center">komentar :</td>
+          <td>
+            <label for="komentar"></label>
+            <textarea name="" id="komentar" cols="0" rows="1"></textarea>
+          </td>
+        </tr>
+        <br />
+        <br />
+        <tr>
+          <td align="center">Asal Kota :</td>
+          <td align="left">
+            <label for="daerah"></label>
+            <select name="" id="daerah">
+              <option value="">Semarang</option>
+              <option value="">Pati</option>
+              <option value="">Jakarta</option>
+            </select>
+          </td>
+        </tr>
+        <br /><br />
+        <!-- submit -->
+        <tr>
+          <td colspan="2" align="center">
+            <button type="submit">submit</button>
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
